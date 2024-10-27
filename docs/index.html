@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nolulamo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-600">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-28 py-4 flex items-center justify-between">
+            <h1 class="text-3xl font-bold text-black">Your Name</h1>
+            <nav class="hidden md:flex space-x-4">
+                <a href="#about" class="hover:text-primary">About</a>
+                <a href="#skills" class="hover:text-primary">Skills</a>
+                <div class="relative group">
+                    <a href="#education" class="hover:text-primary flex items-center">
+                        Education
+                        <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </a>
+                    <div class="absolute hidden group-hover:block bg-white border rounded shadow-lg">
+                        <a href="#education" class="block px-4 py-2 hover:bg-gray-100">School</a>
+                        <a href="#certifications" class="block px-4 py-2 hover:bg-gray-100">Certifications</a>
+                    </div>
+                </div>
+                <a href="#experience" class="hover:text-primary">Experience</a>
+                <a href="#projects" class="hover:text-primary">Projects</a>
+                <a href="#testimonials" class="hover:text-primary">Testimonials</a>
+                <a href="#contact" class="hover:text-primary">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <!-- bg-gradient-to-r from-primary to-secondary -->
+    <section id="home" class="relative">
+        <div class="relative container mx-auto px-28 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 space-y-4">
+                <p class="text-xl">Hi</p>
+                <h2 class="text-4xl font-bold text-primary">I'm Nolulamo Tshuma</h2>
+                <p class="text-xl text-secondary">Electronic Engineering Graduate & Freelance Web Developer</p>
+                <div class="space-x-4">
+                    <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-full font-bold hover:bg-opacity-90 transition duration-300">Hire Me</a>
+                    <a href="#" class="border border-primary bg-white text-primary px-6 py-2 rounded-full font-bold hover:bg-primary hover:text-white transition duration-300">Download CV</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="../src/images/nolu.png" alt="Nolulamo" class="rounded-full border-4 border-white">
+            </div>
+        </div>
+    </section>
+    <div class="relative">
+        <hr class="my-10 border-gray-300">
+        <div class="absolute flex flex-row w-1/3 left-1/2 transform -translate-x-1/2 -top-10 space-x-6 bg-white items-center justify-center border border-gray-300 rounded-full py-4">
+            <div class="widget-item text-center">
+                <h2 class="font-semibold text-2xl">124</h2>
+                <p class="text-sm">Happy Clients</p>
+            </div>
+            <div class="widget-item text-center border-l border-gray-300 pl-6">
+                <h2 class="font-semibold text-2xl">456</h2>
+                <p class="text-sm">Project Completed</p>
+            </div>
+            <div class="widget-item text-center border-l border-gray-300 pl-6">
+                <h2 class="font-semibold text-2xl">789</h2>
+                <p class="text-sm">Awards Won</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-10">
+        <h2 class="text-3xl font-semibold mb-8 text-center text-primary">About Me</h2>
+        <div class="relative container mx-auto px-28 flex flex-col md:flex-row items-center">
+            <div class="w-1/2">
+                <img src="../src/images/workspace.jpg" alt="Web developer" class="rounded-md">
+            </div>
+            <div class="container p-4">
+                <p class="text-md mb-6">
+                    My journey into the world of technology began with a fascination for automating processes. This interest led me to pursue a degree in Electronic Engineering, where I honed my skills in IoT, embedded systems, and automation. As I delved deeper into these fields, I discovered my passion for software development, which perfectly complemented my hardware expertise.
+                </p>
+                <p class="text-md">
+                    Today, I combine my knowledge of electronic engineering with full-stack web development skills to create innovative solutions that bridge the gap between hardware and software. My experience in both fields allows me to approach problems from multiple angles, resulting in efficient and creative solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section py-10">
+        <div class="container text-center px-28 space-y-2">
+            <h6 class="text-secondary text-xl">Services</h6>
+            <h6 class="text-3xl font-semibold text-center text-primary">What I Do</h6>
+            <p class="text-md mb-8">I create solutions that drive engagement and optimize performance. Let’s transform your digital presence together!</p>
+            <div class="flex flex-row items-center justify-center space-x-4 py-8">
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <div class="p-4 rounded-full mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                                </svg>
+                            </div>            
+                            <h5>Web Design & Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <div class="p-4 rounded-full mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </div>            
+                            <h5>SEO</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <div class="p-4 rounded-full mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                            </div>
+                            <h5>SEM</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <div class="p-4 rounded-full mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                                </svg>
+                            </div>
+                            <h5>IoT</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+    <!-- Skills Section -->
+    <section id="skills" class="py-10 bg-white">
+        <div class="container text-center px-28 space-y-2">
+            <h6 class="text-secondary text-xl">Skills</h6>
+            <h6 class="text-3xl font-semibold text-center text-primary">Why choose me?</h6>
+            <p class="text-md mb-8 max-w-5xl mx-auto">
+                In today’s fast-paced digital landscape, having a reliable partner for your projects is essential. With a passion for innovation and a commitment to excellence, I bring a unique blend of skills and experiences that set me apart. My dedication to understanding client needs ensures not just a service, but a partnership that drives results.</p>
+            <div class="flex flex-row items-center justify-center space-x-4 py-8">
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md h-box bg-primary">
+                        <div class="flex flex-col items-center p-6 space-y-4">            
+                            <h5 class="font-semibold text-xl text-secondary">Time Management</h5>
+                            <p class="text-md text-white">
+                                I prioritize tasks effectively to meet deadlines without compromising quality, ensuring your projects stay on track.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md h-box bg-primary">
+                        <div class="flex flex-col items-center p-6 space-y-4">           
+                            <h5 class="font-semibold text-xl text-secondary">Attention to Detail</h5>
+                            <p class="text-md text-white">
+                                My meticulous approach guarantees high standards in every aspect of my work, from code to creative content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4 h-box">
+                    <div class="custom-card card border shadow-md h-box bg-primary">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <h5 class="font-semibold text-xl text-secondary">Adaptability</h5>
+                            <p class="text-md text-white">
+                                I thrive in dynamic environments, quickly adjusting to new challenges and technologies as they arise.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4">
+                    <div class="custom-card card border shadow-md h-box bg-primary">
+                        <div class="flex flex-col items-center p-6 space-y-4">
+                            <h5 class="font-semibold text-xl text-secondary">Communication</h5>
+                            <p class="text-md text-white">I prioritize clear and open communication, ensuring that you are informed and involved throughout the project lifecycle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-28">
+            <h6 class="text-secondary text-xl">Projects</h6>
+            <h6 class="text-3xl font-semibold text-center text-primary">Check My Wonderful Works</h6>
+            <p class="text-md mb-8 max-w-5xl mx-auto">
+                Explore a my works that showcases my skills. Each project reflects my commitment to quality and attention to detail.</p>
+            <div class="container flex flex-row items-center justify-center space-x-4">
+                <div class="freelance-projects w-1/3">
+                    <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Freelance Projects</h3>
+                    <div class="w-full">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="https://via.placeholder.com/400x200" alt="Project 1" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="text-lg font-semibold mb-2">Project 1</h4>
+                                <p class="text-sm text-gray-600 mb-4">Brief description of the project goes here.</p>
+                                <a href="#" class="inline-block bg-primary text-white px-4 py-2 rounded-full font-bold hover:bg-opacity-90 transition duration-300">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal-projects w-1/3">
+                    <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Personal Projects</h3>
+                    <div class="w-full">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="https://via.placeholder.com/400x200" alt="Project 4" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="text-lg font-semibold mb-2">Project 4</h4>
+                                <p class="text-sm text-gray-600 mb-4">Brief description of the project goes here.</p>
+                                <a href="#" class="inline-block bg-primary text-white px-4 py-2 rounded-full font-bold hover:bg-opacity-90 transition duration-300">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="current-projects w-1/3">
+                    <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Current Projects</h3>
+                    <div class="w-ful">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="https://via.placeholder.com/400x200" alt="Project 7" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="text-lg font-semibold mb-2">Project 7</h4>
+                                <p class="text-sm text-gray-600 mb-4">Brief description of the project goes here.</p>
+                                <a href="#" class="inline-block bg-primary text-white px-4 py-2 rounded-full font-bold hover:bg-opacity-90 transition duration-300">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-28">
+            <h2 class="text-3xl font-bold mb-8 text-center text-primary">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="italic mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."</p>
+                    <p class="font-semibold">- Client 1</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="italic mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."</p>
+                    <p class="font-semibold">- Client 2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-28">
+            <h2 class="text-3xl font-bold mb-8 text-center text-primary">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+                    <p class="mb-4">Feel free to reach out if you have any questions or if you'd like to work together!</p>
+                    <div class="space-y-2">
+                        <p class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            your.email@example.com
+                        </p>
+                        <p class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            +1 (123) 456-7890
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                        <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-6">
+        <div class="container mx-auto px-28 text-center">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
